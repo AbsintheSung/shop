@@ -102,8 +102,8 @@ function photo() {
             photoIndex = 1
         }
         textTitle2(photoIndex)
-//         pictureImg2.style.backgroundImage = 'url("../img/L2' + photoIndex + '.jpg")'
-        pictureImg2.style.backgroundImage = 'url("https://github.com/AbsintheSung/shop/raw/main/img/L2' + photoIndex + '.jpg")'
+pictureImg2.style.backgroundImage = 'url("https://github.com/AbsintheSung/shop/raw/main/img/L2' + photoIndex + '.jpg")'
+  
         console.log(pictureImg2.style.backgroundImage)
     }
 
