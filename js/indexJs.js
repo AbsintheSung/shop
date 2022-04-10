@@ -1,3 +1,4 @@
+window.onload=function(){
 let pictureImg1 = document.querySelector('.pictureImg1')
 let arrowLeft = document.querySelector('.arrowLeft')
 let arrowRight = document.querySelector('.arrowRight')
@@ -108,3 +109,4 @@ function photo() {
 
 }
 photo();
+    }
