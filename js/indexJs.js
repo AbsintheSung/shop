@@ -64,9 +64,10 @@ function photo() {
             photoIndex = 4
         }
         textTitle(photoIndex)
-        // console.log(pictureImg1.style.backgroundImage = 'url("./L1_feature_02_0' + photoIndex + '_pc.jpg")')
 
-        pictureImg1.style.backgroundImage = 'url("../img/L1' + photoIndex + '.jpg")'
+//        pictureImg1.style.backgroundImage = 'url("../img/L1' + photoIndex + '.jpg")'
+        pictureImg1.style.backgroundImage = 'url("https://github.com/AbsintheSung/shop/blob/main/img/L1' + photoIndex + '.jpg")'
+       
         console.log(pictureImg1.style.backgroundImage)
 
     }
@@ -77,8 +78,9 @@ function photo() {
         }
         textTitle(photoIndex)
         // console.log(pictureImg1.style.backgroundImage = 'url("./L1_feature_02_0' + photoIndex + '_pc.jpg")')
-        // pictureImg1.style.backgroundImage = 'url("./img/L1_feature_02_0' + photoIndex + '_pc.jpg")'
-        pictureImg1.style.backgroundImage = 'url("../img/L1' + photoIndex + '.jpg")'
+ 
+//         pictureImg1.style.backgroundImage = 'url("../img/L1' + photoIndex + '.jpg")'
+        pictureImg1.style.backgroundImage = 'url("https://github.com/AbsintheSung/shop/blob/main/img/L1' + photoIndex + '.jpg")'
         console.log(pictureImg1.style.backgroundImage)
 
 
@@ -89,8 +91,8 @@ function photo() {
             photoIndex = 4
         }
         textTitle2(photoIndex)
-        // pictureImg2.style.backgroundImage = 'url("./img/L1_feature_03_0' + photoIndex + '_pc.jpg")'
-        pictureImg2.style.backgroundImage = 'url("../img/L2' + photoIndex + '.jpg")'
+//         pictureImg2.style.backgroundImage = 'url("../img/L2' + photoIndex + '.jpg")'
+        pictureImg2.style.backgroundImage = 'url("https://github.com/AbsintheSung/shop/blob/main/img/L2' + photoIndex + '.jpg")'
         console.log(pictureImg2.style.backgroundImage)
     }
     function rightFn2() {
@@ -99,8 +101,8 @@ function photo() {
             photoIndex = 1
         }
         textTitle2(photoIndex)
-        // pictureImg2.style.backgroundImage = 'url("./img/L1_feature_03_0' + photoIndex + '_pc.jpg")'
-        pictureImg2.style.backgroundImage = 'url("../img/L2' + photoIndex + '.jpg")'
+//         pictureImg2.style.backgroundImage = 'url("../img/L2' + photoIndex + '.jpg")'
+        pictureImg1.style.backgroundImage = 'url("https://github.com/AbsintheSung/shop/blob/main/img/L2' + photoIndex + '.jpg")'
         console.log(pictureImg2.style.backgroundImage)
     }
 
