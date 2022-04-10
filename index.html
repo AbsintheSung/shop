@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zn-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="./css/headerStyle.css">
+    <link rel="stylesheet" href="./css/mainStyle.css">
+    <link rel="styleSheet" href="./css/footerStyle.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="block">
+            <nav calss="nav">
+                <a href="./index.html" class="logo"><img class="imglogo" src="./img/icon-Android-240.png"></a>
+                <ul class="nav_list">
+                    <li class='nav_list_WOMEN'><a>WOMEN</a></li>
+                    <div class="WOMEN_list">
+                        <div class="WOMEN_list_left">
+                            <div class="WOMEN_listleft_a">
+                                <ul>
+                                    <li class="newHot"><a href="">女裝首頁</a></li>
+                                    <li><a href="">外套類</a></li>
+                                    <li><a href="">所有外套</a></li>
+                                    <li><a href="">休閒/機能/連帽外套</a></li>
+                                    <li><a href="">風衣/大衣/西裝外套</a></li>
+                                    <li><a href="">抗UV系列</a></li>
+                                    <li><a href="">特級極輕羽絨系列</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">下半身</a></li>
+                                    <li><a href="">所有褲裝</a></li>
+                                    <li><a href="">牛仔褲</a></li>
+                                    <li><a href="">休閒長褲/正裝褲</a></li>
+                                    <li><a href="">九分褲.七分褲</a></li>
+                                    <li><a href="">緊身褲</a></li>
+                                    <li><a href="">寬褲</a></li>
+                                    <li><a href="">短褲</a></li>
+                                </ul>
+                            </div>
+                            <div class="WOMEN_listleft_b">
+                                <ul>
+                                    <li><a href="">上衣類</a></li>
+                                    <li><a href="./shop_list_women.html">所有上衣</a></li>
+                                    <li><a href="">短袖/背心</a></li>
+                                    <li><a href="">長袖.七分袖</a></li>
+                                    <li><a href="">休閒/連帽上衣</a></li>
+                                    <li><a href="">針織衫.開襟外套</a></li>
+                                    <li><a href="">襯衫.設計上衣</a></li>
+                                    <li><a href="">亞麻系列</a></li>
+                                    <li><a href="">BRATOP罩杯式上衣系列</a></li>
+                                    <li class="newHot"><a href="#javascript">UT印花T恤</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">洋裝/裙子</a></li>
+                                    <li><a href="">洋裝</a></li>
+                                    <li class="newHot"><a href="">裙子</a></li>
+                                    <li><a href="">內搭褲</a></li>
+                                </ul>
+                            </div>
+                            <div class="WOMEN_listleft_c">
+                                <ul>
+                                    <li><a href="">內衣類</a></li>
+                                    <li><a href="">所有內衣</a></li>
+                                    <li><a href="">內搭衣</a></li>
+                                    <li><a href="">內褲.無痕內褲</a></li>
+                                    <li><a href="">無鋼圈美型胸罩</a></li>
+                                    <li><a href="">BRATOP罩杯式上衣系列</a></li>
+                                    <li><a href="">AIRism 科技空氣衣系列</a></li>
+                                    <li><a href="">HEATTECH 吸濕發熱衣系列</a></li>
+                                    <li><a href="">前開式系列</a></li>
+                                    <li><a href="">襪子</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">家居/寢具類</a></li>
+                                    <li><a href="">居家生活專區</a></li>
+                                    <li><a href="">家居服/褲</a></li>
+                                    <li><a href="">RELACO輕便褲</a></li>
+                                    <li><a href="">家居拖鞋</a></li>
+                                    <li><a href="">寢具系列.毛巾</a></li>
+                                    <li><a href="">孕婦類</a></li>
+                                    <li><a href="">孕婦系列</a></li>
+                                </ul>
+                            </div>
+                            <div class="WOMEN_listleft_d">
+                                <ul>
+                                    <li><a href="">配件類</a></li>
+                                    <li><a href="">所有配件</a></li>
+                                    <li><a href="">口罩</a></li>
+                                    <li><a href="">鞋子</a></li>
+                                    <li><a href="">環保袋/包包</a></li>
+                                    <li><a href="">皮帶</a></li>
+                                    <li class="newHot"><a href="">帽子/手套/圍巾</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">SPORT UTILITY WEAR</a></li>
+                                    <li><a href="">商品一覽</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">多變氣候穿搭</a></li>
+                                    <li><a href="">商品一覽</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">豐富尺碼專區</a></li>
+                                    <li><a href="">網路最大旗艦店提供XS-4XL專區</a></li>
+                                    <li><a href="">擴大全台店舖販售尺碼總覽</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="WOMEN_list_right">
+                            <div class="WOMEN_listright_a">
+                                <ul>
+                                    <li><a href="">每周新品</a></li>
+                                    <li><a href="">
+                                            <span>超優惠專區<br>最低NT$99起</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="">
+                                            <span>TOP 10<br>熱銷排行</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="">UT印花T恤</a></li>
+                                    <li><a href="">設計師聯名系列</a></li>
+                                    <li><a href="">新品預告(每週更新)</a></li>
+                                    <li><a href=""><span>Today's Pick Up<br>週週更新線上雜誌</span></a></li>
+                                    <li><a href=""><span>Styling Book<br>穿搭介紹</span></a></li>
+                                    <li><a href=""><span>LifeWear<br>magazine<br>線上版第六期</span></a></li>
+                                    <li><a href="">大宗採購/團體服務</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="WOMEN_listright_b">
+                                <ul>
+                                    <li><a href="">熱門主題</a></li>
+                                    <li><a href="">U直播</a></li>
+                                    <li><a href="">穿得住的抗UV系列</a></li>
+                                    <li><a href="">AIRism科技空氣衣特輯</a></li>
+                                    <li><a href="">看更多主題</a></li>
+                                    <li><a href="">特別推薦</a></li>
+                                    <li><a href=""><img src="./img/icon-Android-240.png">UNIQLO x Theory
+                                            2022春夏聯名系列</a></li>
+                                    <li><a href=""><img src="./img/icon-Android-240.png">UNIQLO and JW
+                                            ANDERSON
+                                            2022春夏聯名系列</a></li>
+                                    <li><a href=""><img src="./img/icon-Android-240.png"><br>Uniqlo U
+                                            2022春夏聯名系列</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <li class="nav_list_MEN"><a>MEN</a></li>
+                    <div class="MEN_list">
+                        <div class="MEN_list_left">
+                            <div class="MEN_list_left_a">
+                                <ul>
+                                    <li class="newHot"><a href="">男裝首頁</a></li>
+                                    <li><a href="">外套類</a></li>
+                                    <li class="newHot"><a href="#javascript">所有外套</a></li>
+                                    <li><a href=""><span>休閒/機能/<br>機能外套</span></a></li>
+                                    <li><a href="">
+                                            <sapn>風衣/大衣/<br>西裝外套</sapn>
+                                        </a></li>
+                                    <li><a href="">抗uv系列</a></li>
+                                    <li class="newHot"><a href="">特級極輕羽絨系列</a></li>
+                                    <li><a href="">下半身</a></li>
+                                    <li><a href="">所有褲裝</a></li>
+                                    <li><a href="">牛仔褲</a></li>
+                                    <li><a href="">休閒長褲</a></li>
+                                    <li><a href="">九分褲.束口褲</a></li>
+                                    <li><a href="">卡其褲</a></li>
+                                    <li><a href="">正裝褲</a></li>
+                                    <li><a href="">五分褲.短袖</a></li>
+                                </ul>
+                            </div>
+                            <div class="MEN_list_left_b">
+                                <ul>
+                                    <li><a href="">上衣類</a></li>
+                                    <li class="newHot"><a href="./shop_list_men.html">所有上衣</a></li>
+                                    <li><a href="">短袖.背心</a></li>
+                                    <li><a href="">長袖.七分袖</a></li>
+                                    <li><a href="">休閒/連帽上衣</a></li>
+                                    <li><a href="">針織衫.開襟外套</a></li>
+                                    <li><a href="">休閒襯衫</a></li>
+                                    <li><a href="">商務襯衫</a></li>
+                                    <li><a href="">亞麻系列</a></li>
+                                    <li><a href="">POLO衫</a></li>
+                                    <li class="newHot"><a href="">印花T恤</a></li>
+                                </ul>
+                            </div>
+                            <div class="MEN_list_left_c">
+                                <ul>
+                                    <li><a href="">內衣類</a></li>
+                                    <li><a href="">所有內衣</a></li>
+                                    <li><a href="">內搭衣</a></li>
+                                    <li><a href=""><span>AIRism<br>科技空氣衣系列</span></a></li>
+                                    <li><a href=""><span>HEATTECH<br>吸濕發熱衣系列</span></a></li>
+                                    <li><a href="">前開式系列</a></li>
+                                    <li><a href="">內褲</a></li>
+                                    <li><a href="">襪子</a></li>
+                                    <li><a href="">家居服/寢具類</a></li>
+                                    <li><a href="">居家生活專區</a></li>
+                                    <li><a href="">家居服/褲</a></li>
+                                    <li><a href="">輕便短褲</a></li>
+                                    <li><a href="">家居拖鞋</a></li>
+                                    <li><a href="">寢具系列.毛巾</a></li>
+                                </ul>
+                            </div>
+                            <div class="MEN_list_left_d">
+                                <ul>
+                                    <li><a href="">配件類</a></li>
+                                    <li><a href="">所有配件</a></li>
+                                    <li><a href="">口罩</a></li>
+                                    <li><a href="">帽子/手套/圍巾</a></li>
+                                    <li><a href="">鞋子</a></li>
+                                    <li><a href="">環保袋/包包</a></li>
+                                    <li><a href="">皮帶.領帶</a></li>
+                                    <li><a href="">SPORT UTILITY WEAR</a></li>
+                                    <li><a href="">商品一覽</a></li>
+                                    <li><a href="">豐富尺碼專區</a></li>
+                                    <li><a href=""><span>網路最大旗艦店<br>提供XS-4XL專區</span></a></li>
+                                    <li><a href=""><span>擴大全台店鋪<br>販售尺碼總攬</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="MEN_list_right">
+                            <div class="MEN_list_right_a">
+                                <ul>
+                                    <li><a href="">每週新品</a></li>
+                                    <li><a href=""><span>超優惠專區<br>最低NT$99起</span></a></li>
+                                    <li><a href=""><span>TOP 10<br>熱銷排行</span></a></li>
+                                    <li><a href="">UT印花T恤</a></li>
+                                    <li><a href="">設計師聯名系列</a></li>
+                                    <li><a href="">新品預告(每週更新)</a></li>
+                                    <li><a href=""><span>Today's Pick Up<br>週週更新線上雜誌</span></a></li>
+                                    <li><a href=""><span>Styling Book<br>穿搭介紹</span></a></li>
+                                    <li><a href=""><span>LifeWear<br>magazine<br>線上版第六期</span></a></li>
+                                    <li><a href="">大宗採購/團購服務</a></li>
+                                </ul>
+                            </div>
+                            <div class="MEN_list_right_b">
+                                <ul>
+                                    <li><a href="">熱門主題</a></li>
+                                    <li><a href="">U直播</a></li>
+                                    <li><a href="">穿得住的抗UV系列</a></li>
+                                    <li><a href="">AIRism科技空氣衣特輯</a></li>
+                                    <li><a href="">看更多主題...</a></li>
+                                    <li><a href="">特輯推薦</a></li>
+                                    <li><a href=""><img src="./img/icon-Android-240.png">UNIQLO and JW
+                                            ANDERSON
+                                            2022春夏聯名系列</a></li>
+                                    <li><a href=""><img src="./img/icon-Android-240.png"><br>Uniqlo U
+                                            2022春夏聯名系列</a></li>
+                                    <li><a href=""><img src="./img/icon-Android-240.png">UNIQLO x Theory
+                                            2022春夏聯名系列</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav_list_KIDS"><a>KIDS</a></li>
+                    <div class="kids_list">
+                        <div class="kids_list_left">
+                            <div class="kids_list_left_a">
+                                <ul>
+                                    <li class="newHot"><a href="">童裝首頁</a></li>
+                                    <li><a href="">外套類</a></li>
+                                    <li><a href="">外套/背心</a></li>
+                                    <li><a href="">抗UV系列</a></li>
+                                    <li class="newHot"><a href="">特級極輕羽絨系列</a></li>
+                                    <li><a href="">上衣類</a></li>
+                                    <li><a href="">短袖/長袖</a></li>
+                                    <li><a href="">休閒/連帽上衣</a></li>
+                                    <li><a href="">襯衫</a></li>
+                                    <li><a href="">UT印花T恤</a></li>
+                                </ul>
+                            </div>
+                            <div class="kids_list_left_b">
+                                <ul>
+                                    <li><a href="">洋裝/裙子</a></li>
+                                    <li><a href="">洋裝</a></li>
+                                    <li><a href="">裙子</a></li>
+                                    <li><a href="">內搭褲</a></li>
+                                    <li><a href="">下半身</a></li>
+                                    <li><a href="">長褲/卡其褲<br>/束口褲</a></li>
+                                    <li><a href="">短褲</a></li>
+                                    <li><a href="">內衣類</a></li>
+                                    <li><a href="">所有內搭衣</a></li>
+                                    <li><a href="">棉質系列</a></li>
+                                    <li><a href="">AIRism<br>科技空氣衣系列</a></li>
+                                    <li><a href="">HEATTECH<br>吸濕發熱衣系列</a></li>
+                                    <li><a href="">成長內衣</a></li>
+                                    <li><a href="">前開市系列/a></li>
+                                    <li><a href="">內褲</a></li>
+                                    <li><a href="">襪子</a></li>
+                                </ul>
+                            </div>
+                            <div class="kids_list_left_c">
+                                <ul>
+                                    <li><a href="">家居類</a></li>
+                                    <li><a href="">居家生活專區</a></li>
+                                    <li><a href="">家居服/褲</a></li>
+                                    <li><a href="">配件類</a></li>
+                                    <li><a href="">所有配件</a></li>
+                                    <li><a href="">SPORT UTILITY WEAR</a></li>
+                                    <li><a href="">商品一覽</a></li>
+                                    <li><a href="">多變氣候推薦穿搭</a></li>
+                                    <li><a href="">商品一覽</a></li>
+                                    <li><a href="">相關推薦</a></li>
+                                    <li><a href="">青少年/女孩成長<br>推薦商品總覽</a></li>
+                                    <li><a href="">網路最大旗艦店<br>提供XS-4XL專區</a></li>
+                                    <li><a href="">擴大全台店舖<br>販售尺碼總覽</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="kids_list_right">
+                            <div class="kids_list_right_a">
+                                <ul>
+                                    <li class="newHot"><a href="">每週新品</a></li>
+                                    <li><a href="">超優惠專區<br>最低NT$99起</a></li>
+                                    <li><a href="">TOP 10<br>熱銷排行</a></li>
+                                    <li><a href="">UT印花T恤</a></li>
+                                    <li><a href="">設計師聯名系列</a></li>
+                                    <li><a href="">新品預告(每週更新)</a></li>
+                                    <li><a href="">Today's Pick Up<br>週週更新線上雜誌</a></li>
+                                    <li><a href="">Styling Book<br>穿搭介紹</a></li>
+                                    <li><a href="">LifeWear<br>magazine<br>線上版第六期</a></li>
+                                    <li><a href="">大宗採購/團購服務</a></li>
+                                </ul>
+                            </div>
+                            <div class="kids_list_right_b">
+                                <ul>
+                                    <li><a href="">U直播</a></li>
+                                    <li><a href="">穿得住的抗UV系列</a></li>
+                                    <li><a href="">AIRism科技空氣衣特輯</a></li>
+                                    <li><a href="">看更多主題...</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav_list_BABY"><a>BABY</a></li>
+                    <div class="BABY_list">
+                        <div class="BABY_list_left">
+                            <div class="BABY_list_left_a">
+                                <ul>
+                                    <li class="newHot"><a href="">嬰幼兒首頁</a></li>
+                                    <li><a href="">新生兒<br>(50~60cm.0~3個月)</a></li>
+                                    <li><a href="">產前準備指南<br>UNIQLO嬰幼兒服</a></li>
+                                    <li><a href="">背心/圍兜</a></li>
+                                    <li><a href="">肚衣/蝴蝶衣</a></li>
+                                </ul>
+                            </div>
+                            <div class="BABY_list_left_b">
+                                <ul>
+                                    <li><a href="">新生兒<br>(50~90cm.0~2歲)</a></li>
+                                    <li><a href="">新生兒全系列</a></li>
+                                    <li><a href="">肚衣/蝴蝶衣<br>/包臀衣系列</a></li>
+                                    <li><a href="">連身衣系列</a></li>
+                                    <li><a href="">背心/圍兜</a></li>
+                                    <li><a href="">AIRism系列</a></li>
+                                    <li><a href="">前開式系列</a></li>
+                                    <li><a href="">襪子</a></li>
+                                    <li><a href="">孕婦裝</a></li>
+                                    <li><a href="">孕婦系列</a></li>
+                                </ul>
+                            </div>
+                            <div class="BABY_list_left_c">
+                                <ul>
+                                    <li><a href="">新生兒<br>(70~120cm/6個月~5歲)</a></li>
+                                    <li><a href="">外套</a></li>
+                                    <li><a href="">上衣/背心/洋裝</a></li>
+                                    <li><a href="">褲裝/內搭褲</a></li>
+                                    <li><a href="">UT印花T恤</a></li>
+                                    <li><a href="">家居/內衣類</a></li>
+                                    <li><a href="">內衣</a></li>
+                                    <li><a href="">棉質網眼系列</a></li>
+                                    <li><a href="">AIRism<br>科技空氣衣系列</a></li>
+                                    <li><a href="">HEATTECH<br>吸濕發熱衣系列</a></li>
+                                    <li><a href="">家居服.睡衣</a></li>
+                                    <li><a href="">其他</a></li>
+                                    <li><a href="">襪子</a></li>
+                                    <li><a href="">配件</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="BABY_list_right">
+                            <div class="BABY_list_right_a">
+                                <ul>
+                                    <li class="newHot"><a href="">每週新品</a></li>
+                                    <li><a href="">超優惠專區<br>最低NT$99起</a></li>
+                                    <li><a href="">TOP 10<br>熱銷排行</a></li>
+                                    <li><a href="">UT印花T恤</a></li>
+                                    <li><a href="">設計師聯名系列</a></li>
+                                    <li><a href="">新品預告(每週更新)</a></li>
+                                    <li><a href="">Today's Pick Up<br>週週更新線上雜誌</a></li>
+                                    <li><a href="">Styling Book<br>穿搭介紹</a></li>
+                                    <li><a href="">LifeWear<br>magazine<br>線上版第六期</a></li>
+                                    <li><a href="">大宗採購/團購服務</a></li>
+                                </ul>
+                            </div>
+                            <div class="BABY_list_right_b">
+                                <ul>
+                                    <li><a href="">U直播</a></li>
+                                    <li><a href="">穿得住的抗UV系列</a></li>
+                                    <li><a href="">AIRism科技空氣衣特輯</a></li>
+                                    <li><a href="">看更多主題...</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </ul>
+                <div class="sreach_block">
+                    <input type="text" class="txt" placeholder="請輸入關鍵字"><button type="button"
+                        class="share_btn"></button>
+                </div>
+                <div class="share_block">
+                    <ul class="share_list">
+                        <li><a href=""><img src="./img/icons8-data-center-60.png"></a></li>
+                        <li><a href=""><img src="./img/icons8-love-100.png"></a></li>
+                        <li><a href="./login.html"><img src="./img/icons8-user-male-60.png"></a></li>
+                        <li><a href=""><img src="./img/icons8-add-shopping-cart-60.png"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="menuPicture1">
+            <div class="pictureImg1">
+                <a class="arrowLeft"><img src="./img/icons8-chevron-left-30.png"></a>
+                <a class="arrowRight"><img src="./img/icons8-chevron-right-30.png"></a>
+                <div class='textPicture'>
+                    <p class="text_one_a">時尚高機能，就從春季開始</p>
+                    <p class="text_one_b">AIRism棉質美型抗UV連帽外套</p>
+                    <a href="#javascript">瀏覽更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="menuPicture2">
+            <div class="pictureImg2">
+                <a class="arrowLeft2"><img src="./img/icons8-chevron-left-30.png"></a>
+                <a class="arrowRight2"><img src="./img/icons8-chevron-right-30.png"></a>
+                <div class='textPicture2'>
+                    <p class="text_two_a">初夏魅力亞麻系列</p>
+                    <p class="text_two_b">亞麻混紡外套<br>模特兒穿著之短褲台灣未販售</p>
+                    <a href="#javascript2">瀏覽更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="announcement">
+            <div class="announcement_block1">
+                <ul>
+                    <li><span>&epar; </span><a href="#javascript">XXX銀行新戶首刷享 700 元刷卡金，活動詳情></a><br></li>
+                    <li><span>&epar; </span><a href="#javascript">反詐騙提，醒請留意近期冒名網站盛行，UNIQLO 關心您!></a></li>
+                </ul>
+            </div>
+            <div class="announcement_block2">
+                <h1>UNIQLO 會員專屬禮遇</h1>
+                <div class="block2_content">
+                    <div class="block2_a">
+                        <a href="#javascript">
+                            <div class="block2_div">
+                                <img src="./img/notice_3.jpg">
+                                <div>
+                                    <h1>網購店取免運加碼送好禮</h1>
+                                    <p>提供實體店舖0元免運、消費滿千元選擇店取再送限量好禮！讓您購物方便快速享好康。</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="block2_b">
+                        <a href="#javascript">
+                            <div class="block2_div">
+                                <img src="./img/notice_2.jpg">
+                                <div>
+                                    <h1>立即下載 APP 體驗智慧購物<br>會員再享滿額首購金</h1>
+                                    <p>下載或更新 UNIQLO APP 即贈 NT$80 滿額首購金，三大升級功能，體驗智慧購物九大優點。</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="block2_c">
+                        <a href="#javascript">
+                            <div class="block2_div">
+                                <img src="./img/notice_1.jpg">
+                                <div>
+                                    <h1>月月抽免費商品體驗</h1>
+                                    <p>會員專屬不定時提供免費商品試穿體驗，回饋您的使用心得，幫助我們讓產品更加美好！</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_block">
+            <div class="footer_block_top">
+                <div><a href="#javascript">客服中心</a></div>
+                <div><a href="#javascript">滿意度問卷調查</a></div>
+                <div><a href="#javascript">企業永續發展</a></div>
+                <div><a href="#javascript">企業情報</a></div>
+                <div><a href="#javascript">徵才訊息</a></div>
+                <div><a href="#javascript">隱私權保護政策</a></div>
+                <div><a href="#javascript">性騷擾防治</a></div>
+                <div><a href="#javascript">定型化契約條款</a></div>
+                <div><a href="#javascript">下載UNIQLO APP</a></div>
+
+            </div>
+            <div class="footer_block_bottom">
+                <div><a href="#javascript">訂閲電子報</a></div>
+                <div><a href="#javascript">取消訂閲電子報</a></div>
+                <div><a href="#javascript">大宗採購/團購服務</a></div>
+                <div><a href="#javascript">UTme!專屬U你</a></div>
+                <div><a href="#javascript">優惠券使用方式</a></div>
+                <div><a href="#javascript">線上退貨申請方式</a></div>
+                <div><a href="#javascript">店舖取貨</a></div>
+                <div><a href="#javascript">包裹貨態查詢</a></div>
+                <div><a href="#javascript">貨到通知</a></div>
+                <div><a href="#javascript">信用卡優惠</a></div>
+            </div>
+        </div>
+        <div class="footer_block2">
+            <span class="footer_text">Copyright &copy; UNIQLO Co., Ltd. All rights
+                reserved.網頁練習測試用，非商業用途<br>圖片皆在uniqlo官網上取得</span>
+            <div class="social_block">
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/?lang=zh-Hant"><img
+                                src="./img/icons8-twitter-48.png"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/"><img src="./img/icons8-facebook-48.png"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/"><img
+                                src="./img/icons8-instagram-48.png"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#javascript"><img src="./img/icons8-line-48.png"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/"><img src="./img/icons8-youtube-48.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/headerJs.js"></script>
+    <script src="./js/indexJs.js"></script>
+    <!-- <script>
+        const { ref, reactive, computed } = Vue
+        const App = {
+
+            setup() {
+
+                return {
+
+                };
+            },
+        };
+
+        Vue.createApp(App).mount('#app');
+
+    </script> -->
+</body>
+
+</html>

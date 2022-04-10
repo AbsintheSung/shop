@@ -1,0 +1,540 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+html {
+    /*10px*/
+    font-size: 62.5%;
+
+    --page-width: 1400px;
+    --bg-color: #046f15;
+}
+
+body {
+    margin: 0;
+    /* height: 300vh; */
+}
+
+/*header整體&左半邊*/
+.header {
+    font-size: 1.6rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    min-width: var(--page-width);
+    /* background: linear-gradient(to bottom, #efefef, lightgray); */
+    background-color: white;
+}
+
+div.block {
+    /* border: 1px solid blue; */
+    width: var(--page-width);
+    margin: 0 auto;
+    font-size: 0;
+}
+
+nav.nav {
+    /* border: 1px solid rgb(18, 218, 35); */
+    font-size: 0;
+}
+
+
+a.logo {
+    /* border: 1px solid black; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imglogo {
+    margin-top: 9px;
+    height: 40px;
+    width: 40px;
+
+}
+
+ul.nav_list {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+
+    /* border: 1px solid red; */
+}
+
+ul.nav_list>li {
+    /* border: 1px solid black; */
+
+    font-family: "UniqloProLight", "microsoft jhenghei";
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+ul.nav_list>li>a {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    /* font-size: 1.6rem; */
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 20px 21px;
+    /* border: 1px solid red; */
+
+
+}
+
+/*導覽 右側*/
+.share_block {
+    /* border: 1px solid orangered; */
+    float: right;
+    margin-right: 10%;
+    margin-top: 16px;
+    width: 200px;
+
+}
+
+.sreach_block {
+    /* border: 1px solid green; */
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 16px;
+}
+
+.txt {
+    border: 2px solid black;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    padding: 3px 3px 3px 3px;
+    font-size: 16px;
+    background-position: left 5px center;
+    vertical-align: top;
+}
+
+.share_btn {
+    background-image: url('../img/icons8-search-30.png');
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    vertical-align: top;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px bold black;
+    width: 28px;
+    height: 28px;
+    margin-left: -2px;
+}
+
+.share_list {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.share_list>li {
+    display: inline-block;
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.share_list>li>a {
+    padding-left: 15px;
+}
+
+.share_list>li>a>img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+}
+
+/*分頁*/
+
+/*WOMEN*/
+.nav_list_WOMEN {
+    position: relative;
+
+}
+
+.nav_list_WOMEN.on {
+    position: relative;
+    color: white;
+    box-shadow: 0 -2px 2px rgb(233, 232, 232);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.WOMEN_list {
+    /* border: 1px solid purple; */
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    margin-left: -90px;
+    margin-top: -1px;
+    font-size: 13px;
+    display: none;
+    background-color: white;
+}
+
+.WOMEN_list.open {
+    display: flex;
+
+}
+
+.WOMEN_list_left {
+    /* border: 1px solid green; */
+    width: 850px;
+    height: 100%;
+    display: flex;
+    justify-items: top;
+    align-items: top;
+    padding: 0;
+    margin: 0;
+
+}
+
+.WOMEN_list_left>div>ul {
+    list-style: none;
+
+}
+
+.WOMEN_listleft_a,
+.WOMEN_listleft_b,
+.WOMEN_listleft_c,
+.WOMEN_listleft_d {
+    flex: 1;
+    /* border: 1px solid rgb(54, 23, 190); */
+
+}
+
+.WOMEN_listleft_a>ul>li,
+.WOMEN_listleft_b>ul>li,
+.WOMEN_listleft_c>ul>li,
+.WOMEN_listleft_d>ul>li {
+    margin: 20px 0px;
+}
+
+.WOMEN_list_right {
+    /* border: 1px solid purple; */
+    width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    padding: 0;
+    margin: 0;
+}
+
+.WOMEN_list_right>div>ul {
+    list-style: none;
+
+}
+
+.WOMEN_listright_a,
+.WOMEN_listright_b {
+    flex: 1;
+    /* border: 1px solid rgb(168, 11, 97); */
+}
+
+.WOMEN_listright_a>ul>li,
+.WOMEN_listright_b>ul>li {
+    margin: 20px 0px;
+}
+
+.WOMEN_listright_b>ul>li>a>img {
+    height: 85px;
+    width: 85px;
+}
+
+/*MEN*/
+.nav_list_MEN {
+    position: relative;
+}
+
+.nav_list_MEN.on {
+    position: relative;
+    color: white;
+    box-shadow: 0 -2px 2px rgb(233, 232, 232);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.MEN_list {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 700px;
+    padding: 0;
+    margin: 0;
+    margin-left: -90px;
+    margin-top: -1px;
+    font-size: 13px;
+    display: none;
+    background-color: white;
+}
+
+.MEN_list.open {
+    display: flex;
+}
+
+.MEN_list_left {
+    /* border: 1px solid green; */
+    width: 850px;
+    height: 100%;
+    display: flex;
+}
+
+.MEN_list_right {
+    /* border: 1px solid rgb(78, 33, 161); */
+    width: 350px;
+    height: 100%;
+    display: flex;
+}
+
+.MEN_list_left>div>ul {
+    list-style: none;
+}
+
+.MEN_list_left_a,
+.MEN_list_left_b,
+.MEN_list_left_c,
+.MEN_list_left_d {
+    /* border: 1px solid orangered; */
+    flex: 1;
+}
+
+.MEN_list_left_a>ul>li,
+.MEN_list_left_b>ul>li,
+.MEN_list_left_c>ul>li,
+.MEN_list_left_d>ul>li {
+    margin: 20px 0px;
+}
+
+
+.MEN_list_right_a {
+    /* border: 1px solid green; */
+    flex: 1;
+}
+
+.MEN_list_right_b {
+    /* border: 1px solid rgb(47, 36, 209); */
+    flex: 1;
+}
+
+.MEN_list_right>div>ul {
+    list-style: none;
+}
+
+.MEN_list_right>div>ul>li {
+    margin: 20px 0px;
+}
+
+.MEN_list_right_b>ul>li>a>img {
+    height: 85px;
+    width: 85px;
+}
+
+/*kids*/
+.nav_list_KIDS {
+    position: relative;
+}
+
+.nav_list_KIDS.on {
+    position: relative;
+    color: white;
+    box-shadow: 0 -2px 2px rgb(233, 232, 232);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.kids_list {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 700px;
+    padding: 0;
+    margin: 0;
+    margin-left: -90px;
+    margin-top: -1px;
+    font-size: 13px;
+    display: none;
+    background-color: white;
+}
+
+.kids_list.open {
+    display: flex;
+}
+
+.kids_list_left {
+    /* border: 1px solid red; */
+    width: 850px;
+    height: 100%;
+    display: flex;
+}
+
+.kids_list_right {
+    /* border: 1px solid green; */
+    width: 350px;
+    height: 100%;
+    display: flex;
+}
+
+.kids_list_left_a,
+.kids_list_left_b,
+.kids_list_left_c {
+    flex: 1;
+    /* border: 1px solid green; */
+}
+
+
+.kids_list_left_a>ul>li,
+.kids_list_left_b>ul>li,
+.kids_list_left_c>ul>li {
+    margin: 20px 0px;
+}
+
+.kids_list_left>div>ul,
+.kids_list_right>div>ul {
+    list-style: none;
+}
+
+.kids_list_right_a,
+.kids_list_right_b {
+    flex: 1;
+    /* border: 1px solid rgb(197, 35, 43); */
+}
+
+.kids_list_right_a>ul>li,
+.kids_list_right_b>ul>li {
+    margin: 20px 0px;
+}
+
+/*BABY*/
+.nav_list_BABY {
+    position: relative;
+}
+
+.nav_list_BABY.on {
+    position: relative;
+    color: white;
+    box-shadow: 0 -2px 2px rgb(233, 232, 232);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.BABY_list {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 700px;
+    padding: 0;
+    margin: 0;
+    margin-left: -90px;
+    margin-top: -1px;
+    font-size: 13px;
+    display: none;
+    background-color: white;
+}
+
+.BABY_list.open {
+    display: flex;
+}
+
+.BABY_list_left {
+    /* border: 1px solid red; */
+    width: 850px;
+    height: 100%;
+    display: flex;
+}
+
+.BABY_list_right {
+    /* border: 1px solid green; */
+    width: 350px;
+    height: 100%;
+    display: flex;
+}
+
+.BABY_list_left>div>ul,
+.BABY_list_right>div>ul {
+    list-style: none;
+}
+
+.BABY_list_left_a,
+.BABY_list_left_b,
+.BABY_list_left_c,
+.BABY_list_right_a,
+.BABY_list_right_b {
+    flex: 1;
+    /* border: 1px solid rgb(197, 35, 43); */
+}
+
+.BABY_list_left_a>ul>li,
+.BABY_list_left_b>ul>li,
+.BABY_list_left_c>ul>li,
+.BABY_list_right_a>ul>li,
+.BABY_list_right_b>ul>li {
+    margin: 20px 0px;
+}
+
+
+
+/*互動*/
+.WOMEN_listright_b>ul>li:hover>a,
+.WOMEN_listright_a>ul>li:hover>a,
+.WOMEN_listleft_a>ul>li:hover>a,
+.WOMEN_listleft_b>ul>li:hover>a,
+.WOMEN_listleft_c>ul>li:hover>a,
+.WOMEN_listleft_d>ul>li:hover>a {
+    color: red;
+}
+
+.MEN_list_left_a>ul>li:hover>a,
+.MEN_list_left_b>ul>li:hover>a,
+.MEN_list_left_c>ul>li:hover>a,
+.MEN_list_left_d>ul>li:hover>a {
+    color: red;
+}
+
+.kids_list_left_a>ul>li:hover>a,
+.kids_list_left_b>ul>li:hover>a,
+.kids_list_left_c>ul>li:hover>a,
+.kids_list_right_a>ul>li:hover>a,
+.kids_list_right_b>ul>li:hover>a {
+    color: red;
+}
+
+.BABY_list_left_a>ul>li:hover>a,
+.BABY_list_left_b>ul>li:hover>a,
+.BABY_list_left_c>ul>li:hover>a,
+.BABY_list_right_a>ul>li:hover>a,
+.BABY_list_right_b>ul>li:hover>a {
+    color: red;
+}
+
+.nav_list_WOMEN:hover>a,
+.nav_list_MEN:hover>a,
+.nav_list_KIDS:hover>a,
+.nav_list_BABY:hover>a {
+    cursor: pointer;
+}
+
+/*偽元素*/
+.newHot::after {
+    content: 'new';
+    color: red;
+    font-size: 13px;
+    vertical-align: top;
+    margin-left: 5px;
+
+    animation-name: hotAnim;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
